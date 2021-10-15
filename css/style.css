@@ -490,6 +490,9 @@ a:hover {
   .welcome-subcription {
     font-size: 12px;
   }
+  .welcome-subcription__tel {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -499,6 +502,18 @@ a:hover {
 }
 
 @media screen and (max-width: 402px) {
+  .welcome__h1 {
+    padding-top: 0.6vh;
+  }
+  .welcome-subcription {
+    left: 1rem;
+  }
+  .welcome-subcription__tel {
+    margin-bottom: 20vw;
+  }
+  .welcome-subcription__time {
+    font-size: 14px;
+  }
   .welcome-subcription__time-add {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -621,7 +636,7 @@ a:hover {
   }
   .positive-items__item {
     width: 90%;
-    font-size: 16px;
+    font-size: 18px;
   }
   .positive-items__item-img {
     width: 12vw;
@@ -694,6 +709,14 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.dopinfo-list__work {
+  position: relative;
+}
+
+.dopinfo-list__work p {
+  margin-left: 4rem;
+}
+
 .dopinfo-list__icon {
   width: 3rem;
   height: 3rem;
@@ -722,9 +745,13 @@ a:hover {
   left: 0;
 }
 
+.dopinfo-list__icon-work {
+  position: absolute;
+}
+
 @media screen and (max-width: 767px) {
   .dopinfo-list {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 

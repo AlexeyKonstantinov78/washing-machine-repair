@@ -47,6 +47,9 @@
         }
         &-subcription {
             font-size: 12px;
+            &__tel {
+                font-size: 18px;
+            }
         }
     }
 }
@@ -59,8 +62,16 @@
 
 @media screen and (max-width: 402px) {
     .welcome {
+        &__h1 {
+            padding-top: 0.6vh;
+        }
         &-subcription {
+            left: 1rem;
+            &__tel {
+                margin-bottom: 20vw;
+            }
             &__time {
+                font-size: 14px;
                 &-add {
                     display: flex;
                     line-height: 20px;
