@@ -1,0 +1,30 @@
+
+
+.form {
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    background: burlywood;
+    
+    &-input {
+        padding: 10px 5px;
+        margin-bottom: 1rem;
+        border: none;
+        font-size: 20px;
+    }
+
+    &-btn {
+        text-transform: uppercase;
+        padding: 10px 5px;
+        font-size: 16px;
+        border: 1px solid #49d858;
+        background-color: #49d858;
+        color: #fff;
+        &:hover, 
+        &:focus, 
+        &:active{
+            border: 1px solid #499381;
+        }
+    }
+}
+

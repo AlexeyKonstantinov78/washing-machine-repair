@@ -1,0 +1,27 @@
+.prise-dopinfo-form {
+    &__container{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        
+    }
+    &__content {
+        width: 30%;            
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .prise-dopinfo-form {
+        &__container {
+            flex-direction: column;
+            align-content: center;
+            padding: 0 10px;
+        }
+        &__content {
+            margin: auto;
+            width: 50%;            
+            min-width: 300px;
+        }
+    }
+}

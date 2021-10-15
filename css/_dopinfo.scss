@@ -1,0 +1,43 @@
+.dopinfo {
+    
+    &-list {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        &__icon {
+            width: 3rem;
+            height: 3rem;
+            margin-right: 1rem;
+            &-diagnostic {
+                position: relative;
+                
+                & svg:nth-child(1) {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                & svg:nth-child(2) {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                & svg:nth-child(3) {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dopinfo {
+        &-list {
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+
+.header {
+    padding-top: 3rem;
+    background: linear-gradient(180deg, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 43%, rgba(255,255,255,1) 100%);
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-picture {    
+        &__img {
+            max-width: 7rem;
+        }
+    }
+}
+
+

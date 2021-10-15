@@ -1,0 +1,71 @@
+.welcome {
+    
+    background-image: url('../img/osnovnoy-fon-1680-1120.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    height: 55vw;
+    margin-bottom: 3rem;
+
+    &-container {
+        position: relative;
+        height: 100%;
+
+    }
+    &__h1 {
+        padding-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        font-size: 5.3vw;
+    }
+
+    &-subcription {
+        position: absolute;
+        left: 3rem;
+        bottom: 4vw;
+        font-size: 2.5vw;
+        &__tel {
+            margin-bottom: 3vw;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome {
+        background-image: url('../img/osnovnoy-fon-1024.jpg');
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .welcome {
+        background-image: url('../img/osnovnoy-fon-768.jpg');
+        &__h1 {
+            padding-top: 2vh;
+            font-size: 5vw;
+        }
+        &-subcription {
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .welcome {
+        background-image: url('../img/osnovnoy-fon-420.jpg');
+    }
+}
+
+@media screen and (max-width: 402px) {
+    .welcome {
+        &-subcription {
+            &__time {
+                &-add {
+                    display: flex;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
